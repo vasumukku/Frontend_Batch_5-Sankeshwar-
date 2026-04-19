@@ -1,0 +1,13 @@
+day-1
+.sytax -html:5
+1.h1--h6
+2.p,br,b,i,hr
+3.button
+4.list-ol,ul,li,
+5..ol-types-1,a,A,I
+6..ul-types-disc,circle,square
+7..li
+8.nested list 
+9.table
+10.thead
+11.tbody,th,tr,td,rowspan colspan,
