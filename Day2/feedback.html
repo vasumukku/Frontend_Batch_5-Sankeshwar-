@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Example</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+        label {
+            font-weight: bold;
+        }
+        select, textarea {
+            width: 300px;
+            margin: 10px 0;
+            padding: 8px;
+        }
+        textarea {
+            height: 100px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Feedback Form</h2>
+
+    <!-- Select Dropdown -->
+    <label for="course">Choose Course:</label><br>
+    <select id="course" name="course">
+        <option value="">-- Select Course --</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+        <option value="react">React</option>
+    </select>
+
+    <br><br>
+
+    <!-- Textarea -->
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" name="message" placeholder="Write your feedback here..."></textarea>
+
+    <br><br>
+
+    <button type="submit">Submit</button>
+
+</body>
+</html>

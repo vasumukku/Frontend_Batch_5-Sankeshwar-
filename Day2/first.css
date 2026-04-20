@@ -1,0 +1,31 @@
+.main-heading{
+  color: rgba(0, 0, 0, 0.877);
+  background-color: rgb(137, 234, 152);
+  text-align: center;
+  font-size: 50px;
+}
+.main-container{
+  background-color: red;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.button-style{
+  background-color: blue;
+  font-size: 40px;
+  color: #fff;
+  /* padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 40px;
+  border-color: rgb(255, 255, 255);
+  border-width: 30px;
+  border-style: double;
+}
+.xyz{
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
+}
+
