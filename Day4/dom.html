@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    *{
+      text-align: center;
+    }
+    .bulbimge{
+      height: 500px;
+      width: 500px;
+
+    }
+  </style>
+</head>
+<body>
+  <img src="https://cdn.pixabay.com/photo/2017/01/26/08/07/light-bulb-2010022_1280.jpg" alt="bulb-on" class="bulbimge" id="1"> <br>
+  <button onclick="lighton()"> light on </button>
+  <button onclick="lightoff()">light off</button>
+  <script >
+    let a = document.getElementById("1");
+      function lighton() {
+       a.src="https://cdn.pixabay.com/photo/2017/01/26/08/07/light-bulb-2010022_1280.jpg";
+      } 
+
+      function lightoff() {
+        a.src="https://tekled.co.uk/cdn/shop/articles/What_is_a_Conventional_Light-775007.jpg?v=1680528977";
+      }
+
+  </script>
+</body>
+</html>

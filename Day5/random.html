@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .main-box{
+      text-align: center;
+      background-color: aquamarine;
+      padding-bottom: 50px;
+      height: 100vh;
+    }
+    .inputbox{
+      width: 30vw;
+      height: 5vh;
+      padding-left: 10px;
+      
+    }
+    .submit-style{
+      padding: 8px;
+      background-color: blue;
+      color: #fff;
+      border: none;
+      font-size: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+ <div class="main-box">
+   <h1 style="text-decoration: underline;">Random Number 🤖 </h1>
+  
+    <h3>system is generating in the range of 1 to 20 numbers <h3>
+      <input type="number" id="inputid"   class="inputbox" placeholder="please enter your fav number o to 20">
+      <button class="submit-style" onclick="status()">submit</button>
+      <h4 id="statusid">Status:</h4>
+    
+ </div>
+  
+
+  <script>
+    let number =Math.ceil(Math.random()*20);
+    let userenterednumber = document.getElementById("inputid");
+    let statustext=document.getElementById("statusid");
+
+    function status() {
+      let usernumber = parseInt(userenterednumber.value); 
+    
+      if(userenterednumber.value==""){
+        alert("please enter something..")
+      }else{
+        if(usernumber==number){
+         statustext.textContent="winner";
+        }else if(number<usernumber){
+          statustext.textContent="you number is greter";
+        }else if(usernumber<number){
+         statustext.textContent="you number is smaller";
+        }
+      }
+    }
+    
+  </script>
+</body>
+</html>

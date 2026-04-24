@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    *{
+      text-align: center;
+    }
+    .bulbimge{
+      height: 300px;
+      width: 300px;
+
+    }
+    .bulb-on{
+      background-color: green;
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+      font-size: 20px;
+      margin-right: 30px;
+    }
+      .bulb-of{
+      background-color: rgb(128, 0, 0);
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+      font-size: 20px;
+      margin-right: 30px;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://cdn.pixabay.com/photo/2017/01/26/08/07/light-bulb-2010022_1280.jpg" alt="bulb-on" class="bulbimge" id="1"> <br>
+  <button onclick="lighton()" class="bulb-on" id="bulbonId"> light on </button>
+  <button onclick="lightoff()" class="bulb-of" id="bulbofId">light off</button>
+  <script >
+    let a = document.getElementById("1");
+    let bulbonele=document.getElementById("bulbonId");
+    let bulbofele=document.getElementById("bulbofId"); 
+      function lighton() {
+       a.src="https://cdn.pixabay.com/photo/2017/01/26/08/07/light-bulb-2010022_1280.jpg";
+       bulbonele.style.backgroundColor="grey";
+       bulbofele.style.backgroundColor="red";
+      } 
+
+      function lightoff() {
+        a.src="https://tekled.co.uk/cdn/shop/articles/What_is_a_Conventional_Light-775007.jpg?v=1680528977";
+        bulbofele.style.backgroundColor="grey";
+        bulbonele.style.backgroundColor="green";
+      }
+
+  </script>
+</body>
+</html>
