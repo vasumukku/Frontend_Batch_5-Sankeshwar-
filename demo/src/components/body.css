@@ -1,0 +1,14 @@
+.body-main-style{
+  background-color: grey;
+
+  width: 22vw;
+  padding: 20px;
+
+}
+.card{
+  
+  height: 250px;
+  width: 150px;
+  background-color: red;
+  border: 2px solid black;
+}

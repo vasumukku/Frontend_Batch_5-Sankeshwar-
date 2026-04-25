@@ -1,0 +1,35 @@
+.navbar-parent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: yellow;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.nav-options{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.login{
+  background-color: blue;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+ 
+}
+.sigin{
+  background-color: rgb(64, 255, 0);
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+
+
+
+  
+
+}
