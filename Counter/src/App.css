@@ -1,0 +1,22 @@
+.main-box{
+  text-align: center;
+}
+.Increment{
+  background-color: green;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.Decrement{
+  background-color: rgb(128, 0, 0);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
+    font-size: 20px;
+}
+.value{
+  font-size: 100px;
+}

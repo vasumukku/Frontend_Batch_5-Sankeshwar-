@@ -1,0 +1,19 @@
+.Abc{
+  height: 200px;
+  width: 200px;
+}
+.card{
+  width: 300px;
+  height: 320px;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 5px;
+}
+.buttonstyle{
+  background-color: blue;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
